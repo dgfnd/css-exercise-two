@@ -1,14 +1,25 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffff;
+  color: #000000;font-size: 16px; line-height: 140%;
 }
-
+h1 {
+  font-size: 300%; line-height: 200%; margin-top: 20px;
+}
+h3 {
+  font-size: 150%; line-height: 150%; margin-bottom: 20px;
+}
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
 }
+
+
+a:link { color:#0070BB; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
 
 .logo {
   margin: 20px;
