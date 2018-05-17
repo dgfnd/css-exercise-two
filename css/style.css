@@ -15,10 +15,13 @@ nav {
   width: 100%;
 }
 
+a{
+  text-decoration: none;
+}
 
 a:link { color:#0070BB; } /* unvisited */
 a:visited { color:#0070BA; } /* visited */
-a:hover { color:#0070BC; } /* mouse over */
+a:hover { color:#ffffff; } /* mouse over */
 a:active { color:#0070BD; } /* selected */
 
 .logo {
